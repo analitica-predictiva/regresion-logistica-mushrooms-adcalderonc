@@ -71,7 +71,7 @@ def pregunta_01():
     df = df.drop("veil_type", axis=1)
 
     # Asigne la columna `type` a la variable `y`.
-    y = df["type"].copy(
+    y = df["type"].copy()
 
     # Asigne una copia del dataframe `df` a la variable `X`.
     X = df.copy()
